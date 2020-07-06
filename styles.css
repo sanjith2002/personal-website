@@ -1,0 +1,219 @@
+html {
+  scroll-behavior: smooth;
+
+}
+/* header section */
+.fixed-top{
+  background-color: #EAF6F6;
+  padding: 0.5% 2% 0.5%;
+  color: black;
+
+}
+
+.logo{
+  width:3vw;
+}
+.nav-link{
+  font-size: 1.5vw;
+}
+.navbar-toggler{
+  font-size: 1.5vw;
+}
+
+.navbar-default {
+  background-color:teal;
+  background-image: none;
+  background-repeat: no-repeat;
+ }
+
+/* intro page */
+
+.h1-text{
+  padding-top: 12% ;
+  font-family: 'Sacramento', cursive;
+  font-size:7vw;
+  color: #66BFBF;
+  position:relative;
+  z-index: 1;
+}
+.p-text {
+  font-size:2.5vw;
+  color: #66BFBF;
+  position:relative;
+  z-index: 1
+;
+}
+
+.mountain{
+  width:75%;
+  position:relative;
+  bottom:14vw;
+  right:3vw;
+}
+.intro{
+  background-color: #EAF6F6;
+  text-align: center;
+  height:65vw;
+}
+
+/* about me */
+.top-container {
+  text-align: center;
+  padding:8% 0 0;
+}
+
+.profile-photo {
+  border-radius: 100%;
+  height: 25vw;
+}
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #EAF6F6;
+  border-width: 0.5vw;
+  width: 4%;
+  margin-bottom:4%;
+}
+h2{
+  font-size: 4vw;
+  color: #66BFBF;
+}
+
+h3{
+  font-size: 3vw;
+  color: #66BFBF;
+}
+
+
+.hello-p{
+  width: 40%;
+  font-size: 2vw;
+  text-align:center;
+  margin: 6% auto 6% auto;
+}
+
+/* skills section */
+
+.skills{
+  text-align: center;
+}
+.skill-row {
+  width: 60%;
+  margin: 6% auto 10% auto;
+  text-align: left;
+  line-height: 2;
+  font-weight: bold;
+}
+.terminal-photo {
+  width: 25%;
+  float: left;
+  margin-right: 6%;
+}
+
+.skill-photo {
+  width: 25%;
+  float: right;
+  margin-left: 6%;
+}
+.skill-p {
+  color: #40514E;
+  font-size: 1.3vw;
+  font-family:sans-serif;
+  font-weight: normal;
+}
+/* gallery */
+.carousel-item{
+  padding: 3% 15%;
+  height:45%;
+}
+#Gallery{
+  font-family: 'Montserrat', cursive;
+  text-align: center;
+  background-color: #393e46;
+  color:white;
+}
+
+.gal-h{
+  padding-top: 2%;
+}
+.gallery-text{
+  font-size: 2vw;
+}
+
+/* youtube */
+.youtube-d{
+  text-align: center;
+  padding-top:7%;
+}
+
+#youtube-icon{
+  padding: 5% 5%;
+  font-size: 6vw;
+  color: red;
+}
+
+.you-p{
+  width: 50%;
+  font-size: 1.5vw;
+  text-align:center;
+  margin: 1% auto 1% auto;
+}
+
+.btn {
+	background:linear-gradient(to bottom, #11cdd4 5%, #11999e 100%);
+	background-color:#11cdd4;
+	border-radius:0.625vw;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:1.40625vw;
+	padding:0.234375vw 1.25vw;
+	text-decoration:none;
+  margin: 1% auto 4% auto;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #11999e 5%, #11cdd4 100%);
+	background-color:#11999e;
+}
+.btn:active {
+	position:relative;
+	top:0.078125vw;
+}
+
+/* footer */
+#footer{
+  color:white;
+  text-align: center;
+  background-color:#66BFBF;
+  padding: 3.90625vw 0 1.5625vw;
+}
+.footer-btn{
+  font-size: 1.5vw;
+   padding:2%;
+}
+
+.footer-c{
+  font-size: 1.5vw;
+  padding-top:4%;
+}
+.contact-me-img{
+  width:4vw;
+  margin: auto;
+}
+.contact-me-text{
+  padding-top:3%;
+  color:white;
+  font-size: 1.5vw;
+}
+.fab,.fas{
+  color:white;
+}
+
+.fab:hover{
+  color:#40514E;
+}
+
+.fas:hover{
+  color:#40514E;
+}
